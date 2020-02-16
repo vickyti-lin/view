@@ -1,14 +1,57 @@
-nav{
-    font-size: 20px;
+body{
+    font-size: 16px;
 }
 .figure-img{
-    height:475px;
+    max-height:475px;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+}
+.tree{
+    width:100px;
+    height:100px;
+}
+.house{
+    align-self: center !important;
+}
+@media (max-width: 992px) { 
+    .figure-img{
+        height:auto;
+    }
+    
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    
+    .hei{
+        padding-top: 1px !important;
+    }
+    nav ul li{
+            
+            height: 35px;
+            justify-content:center;
+            text:center;
+    }  
+    .talk{
+        list-style-type: square!important;
+        text-align: left!important;
+    } 
+    
 }
 
 .img1{
     height:200px;
     width: 400px;
+   
 }
+
+
+
 .g-dev-box {
     border: 1px solid purple;
 }
+
+
