@@ -12,9 +12,13 @@ body{
     height:100px;
 }
 .house{
-    align-self: center !important;
+    align-self: center ;
 }
-@media (max-width: 992px) { 
+.talk{
+    list-style-type: none;
+}
+
+@media (max-width: 400px) { 
     .figure-img{
         height:auto;
     }
@@ -36,8 +40,8 @@ body{
             text:center;
     }  
     .talk{
-        list-style-type: square!important;
-        text-align: left!important;
+        list-style-type: square;
+        text-align: left;
     } 
     
 }
